@@ -1,0 +1,85 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  color: white;
+
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 100px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  line-height: 0.5px;
+
+}
+/* inizio CSS Header*/
+header{
+  text-align: center;
+}
+img{
+  width: 250px;
+}
+
+.title{
+  color: rgb(0,221,0);
+  font-size: 35px;
+  font-family: arial;
+}
+
+/* Fine CSS Header*/
+
+/* inizio CSS Barra Di Navigazione*/
+.navigator{
+  text-align: center;
+  background-color: rgb(0,221,0);
+  padding: 10px;
+
+}
+
+/* Fine CSS Barra Di Navigazione*/
+
+
+/*inizio CSS Main */
+.sezione {
+  margin-top: 40px;
+  line-height: 10px;
+}
+.Nome {
+  font-family: arial;
+  font-size: 25px;
+}
+.indirizzo {
+  font-size: 15px;
+  font-family: arial;
+}
+.stato-carica {
+  font-size: 15px;
+  font-family: arial;
+
+
+/* Barre di ricarica */
+}
+.carica1{
+  height: 30px;
+  width: 40%;
+  background-color: rgb(245,180,83);
+  border-radius: 5px;
+}
+.carica2{
+  height: 30px;
+  width: 65%;
+  background-color: rgb(0,221,0);
+  border-radius: 5px;
+
+}
+.carica3{
+  height: 30px;
+  width: 20%;
+  background-color: rgb(190,65,65);
+  border-radius: 5px;
+}
+/*Fine CSS Main */
